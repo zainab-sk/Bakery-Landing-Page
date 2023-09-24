@@ -1,0 +1,10 @@
+ul {
+  list-style-image: url(/images/right.svg);
+  margin-left: 15px;
+}
+@media (max-width: 420px) {
+  img {
+    width: 15rem;
+    height: 15rem;
+  }
+}

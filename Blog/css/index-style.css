@@ -1,0 +1,17 @@
+/* Download softwares */
+ol {
+  font-size: 20px;
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+  color: black;
+  font-family: "Playfair Display", serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}

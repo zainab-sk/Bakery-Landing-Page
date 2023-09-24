@@ -1,0 +1,59 @@
+/* Introduction Page */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(230, 223, 223);
+  word-spacing: 0.3rem;
+  padding-top: 5px;
+}
+h1 {
+  font-size: 4rem;
+  font-family: "Staatliches", cursive;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+section {
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+h2 {
+  font-family: "Staatliches", cursive;
+  font-size: 2rem;
+  padding: 10px;
+}
+p,
+li {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
+
+  padding-top: 5px;
+}
+@media (max-width: 415px) {
+  section {
+    width: 80%;
+  }
+  pre {
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+}
+pre {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
+  background-color: rgb(230, 223, 223);
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  white-space: pre-wrap;
+}
+h3 {
+  font-size: 1.5rem;
+}

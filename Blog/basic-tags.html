@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      div {
+        padding: 10px;
+        color: white;
+        background-color: black;
+      }
+      span {
+        border: 1px solid red;
+        width: 20%;
+        display: inline-block;
+        white-space: normal;
+        word-break: break-all;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Assignment 1</h1>
+      <h3 style="text-decoration: underline">&lt;p&gt; tag</h3>
+      <pre>
+&lt;p style="color: blue;"&gt; hello world this is shaikh zainab. &lt;/p&gt;</pre
+      >
+      <p>
+        The &lt;p&gt; is used to display a paragraph.Here we have used an inline
+        css to style the p tag .An inline CSS is used to apply a unique style to
+        a single HTML element. An inline CSS uses the style attribute of an HTML
+        element.
+      </p>
+      <h3 style="text-decoration: underline">&lt;pre&gt; tag</h3>
+      <pre>&lt;pre&gt; hello       world this is a blog&lt;/pre&gt;</pre>
+      <p>
+        The 'pre' tag is preformatted text which is displayed exactly as written
+        in the HTML file.The text is rendered using a monospace font.White space
+        inside this element is displayed as written. <br />Ther are two
+        attributes that are used in the 'pre tag' white-space
+      </p>
+      <pre>
+    
+&lt;style&gt;
+div {    
+padding: 10px;
+color: white;
+background-color: black;
+}
+span{
+border:1px solid red;
+width: 50px;
+display: inline-block;
+white-space: normal;
+}
+&lt;div &gt;&lt;span&gt; Lorem ipsum dolor sit amet.&lt;/span&gt;&lt;/div&gt;
+&lt;/style&gt;
+</pre
+      >
+      <h3>Explanion of code</h3>
+      <h3>div:</h3>
+      <p>
+        Defines a division or section for an HTML document.It acts like a
+        container for an HTML document and is a block level element.
+      </p>
+      <h3>padding:</h3>
+      <p>
+        Defines the space around the element content inside its
+        container.Padding are set using pixels,percentages or borders
+      </p>
+      <h3>color</h3>
+      <p>
+        It is used to set font color of all the elements inside the parent
+        container.i.e div which is now the parent container
+      </p>
+      <h3>background-color</h3>
+      <p>To set the background color of the element.</p>
+      <h3>span</h3>
+      <p>
+        span is an inline element that is used to group elements.It is can be
+        used to style a certain part from a text example. styling a letter from
+        a word.
+      </p>
+      <h3>border</h3>
+      <p>
+        It is used to give a border around an element syntax is borde: size
+        style(solid,dashed,dotted) color;
+      </p>
+      <!-- WHITE-SPACE:NORMAL OF PRETAG -->
+      <h3>1.normal</h3>
+      <p>
+        You’ve styled the span to have a set width of 50px. At a reasonable font
+        size, that’s too much text to fit in 100px. Without doing anything, the
+        default white-space value is normal, and the text will wrap.
+      </p>
+      <div><span> Lorem ipsum dolor sit amet. </span></div>
+      <!-- WHITE-SPACE:NOWRAP-->
+      <h3>2.nowrap</h3>
+      <pre>
+&lt;div &gt;&lt;span style="white-space: nowrap;"&gt;  Lorem ipsum dolor sit amet.&lt;/span&gt;&lt;/div&gt;
+&lt;/style&gt;
+</pre
+      >
+      <p>
+        Multiple whitespaces are collapsed into one, but the text doesn’t wrap
+        to the next line.
+      </p>
+      <div>
+        <span style="white-space: nowrap"> Lorem ipsum dolor sit amet.</span>
+      </div>
+      <!-- WHITE-SPACE:PRE-->
+      <h3>3.pre</h3>
+      <pre>
+&lt;div &gt;&lt;span style="white-space: pre;"&gt;  Lorem ipsum dolor sit amet.&lt;/span&gt;&lt;/div&gt;
+&lt;/style&gt;
+</pre
+      >
+      <p>
+        Same results as using the &lt;pr&gt;where all the whitespaces will be
+        kept as is and the text only wraps when line breaks are in the content.
+      </p>
+      <div>
+        <span style="white-space: pre"> Lorem ipsum dolor sit amet. </span>
+      </div>
+      <p>
+        It’s called pre because the behavior is that as if you had wrapped the
+        text in &lt;pre&gt;&lt;/pre&gt; tags(which by default handle white space
+        and line breaks that way). White space is honored exactly as it is in
+        the HTML and the text does not wrap until a line break is present in the
+        code.
+      </p>
+      <!-- WHITE-SPACE: PRE-WRAP-->
+      <h3>4.pre-wrap</h3>
+      <pre>
+&lt;div &gt;
+&lt;span style="white-space: pre-wrap;"&gt;  
+Lorem ipsum dolor sit amet.&lt;/span&gt;&lt;/div&gt;
+&lt;/style&gt;
+</pre
+      >
+      <p>
+        Similar to pre, but the text also wraps when needed to avoid breaking
+        out of the container
+      </p>
+      <div>
+        <span style="white-space: pre-wrap"> Lorem ipsum dolor sit amet. </span>
+      </div>
+      <h3>5.pre-line</h3>
+      <pre>
+&lt;div &gt;&lt;span style="white-space: pre-line;"&gt;  Lorem ipsum dolor sit amet.&lt;/span&gt;&lt;/div&gt;
+&lt;/style&gt;
+</pre
+      >
+      <p>
+        Multiple whitespaces are collapsed into one, the text breaks to the next
+        line when needed or with line breaks in the content.
+      </p>
+      <div>
+        <span style="white-space: pre-line"> Lorem ipsum dolor sit amet. </span>
+      </div>
+      <h3 style="text-decoration: underline">adress tag</h3>
+      <pre>
+  &lt;address&gt;23 lokhandwala, near police chowkhi,gandhi street&lt;/address&gt;
+      </pre>
+      <address>23 lokhandwala, near police chowkhi,gandhi street</address>
+      <p>adress tag is used to define an adress</p>
+      <p>The HTML &lt;audio&gt; element adds audio content to web pages.</p>
+      <pre>
+  &lt;audio controls autoplay loop&gt; 
+&lt;source src="bitdegree.org/learn/I_Cactus_-_05_-_ruby_cactus.mp3" type="audio/mpeg""&gt; &lt;p&gt;If audio does not start, the &lt;audio&gt; HTML element is not supported in your browser.&lt;/p&gt; 
+&lt;/audio&gt;
+      </pre>
+      <h3>1.audioplay</h3>
+      <p>
+        autoplay specifies whether the audio should play automatically after a
+        web page loads.
+      </p>
+      <h3>2.controls</h3>
+      <p>
+        HTML audio controls indicate whether the audio player should have
+        control buttons (play, pause, volume, etc.).
+      </p>
+      <h3>3.loop</h3>
+      <p>
+        loop specifies whether the audio will start over again after it ends.
+      </p>
+      <h3>4.src</h3>
+      <p></p>
+      <p>
+        specifies the path for the audio.if there is only one source to be used
+        it can be written inside the audio tag.If we want the audio to work with
+        user accessing the website with different browser we can than use the
+        &lt;source&gt; tag because different browsers support different audio
+        formats.
+      </p>
+      <h3 style="text-decoration: underline">head tag</h3>
+      <p>head tag is a block level element used for displaying the heading</p>
+      <pre>
+  &lt;h1&gt;Hello world.&lt;/h1&gt;
+  &lt;h2&gt;Welcome to space.&lt;/h2&gt;
+  &lt;h3&gt;Congratulations..&lt;/h3&gt;
+      </pre>
+    </section>
+  </body>
+</html>
